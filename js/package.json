@@ -1,0 +1,32 @@
+{
+  "name": "mqtt-iota",
+  "version": "1.0.0",
+  "description": "Forward a mqtt data stream to iota mam.",
+  "main": "mqtt_to_mam_tangle.js",
+  "dependencies": {
+    "iota.lib.js": "^0.5.1",
+    "mam.node.js": "^1.0.0",
+    "moment": "^2.23.0",
+    "mqtt": "^2.18.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magictimelapse/mqtt-iota.git"
+  },
+  "keywords": [
+    "iota",
+    "mam",
+    "mqtt",
+    "iot"
+  ],
+  "author": "M.T.R.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magictimelapse/mqtt-iota/issues"
+  },
+  "homepage": "https://github.com/magictimelapse/mqtt-iota#readme"
+}
