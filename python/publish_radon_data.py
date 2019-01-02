@@ -20,7 +20,7 @@ if __name__ == "__main__":
     client.connect(broker,port)
     location = create_location()
     sensor_id = 'radon sensor'
-    MAC_address = "a0:e6:f8:23:70:32"
+    MAC_address = "set the MAC address of your Airthings Wave device here"
     radon_sensor = radon_sensor.RadonSensor(MAC_address)
     while True:
         data,timestamp = radon_sensor.get_data()
