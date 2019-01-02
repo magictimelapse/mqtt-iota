@@ -37,6 +37,8 @@ if __name__ == "__main__":
                        'timestamp': timestamp,
                        'data': data}
         # stringify the json data:
+        print('sending data to mqtt broker...')
+        print(json_object)
         stringified_json_object = json.dumps(json_object, separators=(',',':'))
         ret = client.publish('sensors/data',stringified_json_object)
         time.sleep(30.)
